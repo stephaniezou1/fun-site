@@ -16,7 +16,7 @@ export class HomeContainer extends Component {
                             You are cordially invited to my 22nd birthday celebration weekend on April 30 to May 2! 😊
                         </p>
                         <br/>
-                        <a href="/details">
+                        <a href="details">
                             <Button variant="secondary">See Details</Button>
                         </a>
                     </Jumbotron>
