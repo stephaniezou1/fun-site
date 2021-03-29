@@ -16,9 +16,9 @@ export class HomeContainer extends Component {
                             You are cordially invited to my 22nd birthday celebration weekend (April 30 - May 2). Please RSVP with me as soon as you can via text! 😊
                         </p>
                         <br/>
-                        <p>
-                            <Button variant="secondary" href="/details">Learn more</Button>
-                        </p>
+                        <a href="/details">
+                            <Button variant="secondary" >See Details</Button>
+                        </a>
                     </Jumbotron>
                 </div>
             <div class="carousel carousel-fade slide" id="my-carousel">
