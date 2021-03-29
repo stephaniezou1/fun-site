@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 
+
 export class DetailContainer extends Component {
     render() {
         return (

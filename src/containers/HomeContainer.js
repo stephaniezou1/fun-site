@@ -13,11 +13,11 @@ export class HomeContainer extends Component {
                     <Jumbotron>
                         <h1>Welcome</h1>
                         <p>
-                            You are cordially invited to my 22nd birthday celebration weekend (April 30 - May 2). Please RSVP with me as soon as you can via text! 😊
+                            You are cordially invited to my 22nd birthday celebration weekend on April 30 to May 2! 😊
                         </p>
                         <br/>
                         <a href="/details">
-                            <Button variant="secondary" >See Details</Button>
+                            <Button variant="secondary">See Details</Button>
                         </a>
                     </Jumbotron>
                 </div>
