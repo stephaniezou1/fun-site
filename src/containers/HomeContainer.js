@@ -12,7 +12,7 @@ export class HomeContainer extends Component {
                     <Jumbotron>
                         <h1>Welcome</h1>
                         <p>
-                            You are cordially invited to my 22nd birthday celebration weekend!
+                            You are cordially invited to my 22nd birthday celebration weekend! Please RSVP as soon as you can via text.
                         </p>
                         <p>
                             <Button variant="primary" href="/details">Learn more</Button>
