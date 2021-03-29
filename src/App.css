@@ -2,5 +2,27 @@
   text-align: center;
 }
 
+#my-carousel .carousel-inner .item {
+  width: 100%;
+  height: 300px;
+}
+#my-carousel .carousel-inner .item {
+  background-image: url(https://a0.muscache.com/im/pictures/8615ccd3-f2c9-4c94-9bb5-1666f847ea88.jpg?im_w=1200);
+  background-size: cover;
+  background-position: center top;
+}
+#my-carousel .carousel-inner .item-2 {
+  background-image: url(https://a0.muscache.com/im/pictures/e8233baf-02f4-47c7-b123-a8b4ae615c06.jpg?im_w=1440)
+}
+#my-carousel .carousel-inner .item-3 {
+  background-image: url(https://a0.muscache.com/im/pictures/2b3815f0-b2f9-4550-a4e3-82abe155932a.jpg?im_w=1440)
+}
+@media (min-width:768px) { 
+  #my-carousel .carousel-inner .item {
+      height: 500px
+  }
+}
 
-
+.home-header{
+  padding-top:6em;
+}

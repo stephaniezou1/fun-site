@@ -1,48 +1,35 @@
-import React, { Component } from 'react'
-import {Carousel, Jumbotron, Button} from 'reactstrap'
+            
+        //     <div class="container">
 
-// import '../App.scss';
+        //     <div class="carousel carousel-fade slide" id="my-carousel">
 
-export class HomeContainer extends Component {
-    render() {
-        return (
-            <div class="container">
-                <div class="home-header">
-                    <Jumbotron>
-                        <h1>Welcome</h1>
-                        <p>
-                            You are cordially invited to my 22nd birthday celebration weekend!
-                        </p>
-                        <p>
-                            <Button variant="primary" href="/details">Learn more</Button>
-                        </p>
-                    </Jumbotron>
-                </div>
-            <div class="carousel carousel-fade slide" id="my-carousel">
+        //         <ol class="carousel-indicators">
+        //             <li data-target="#my-carousel" data-slide-to="0"></li>
+        //             <li data-target="#my-carousel" data-slide-to="1"></li>
+        //             <li data-target="#my-carousel" data-slide-to="2"></li>
+        //         </ol>
 
-                <ol class="carousel-indicators">
-                    <li data-target="#my-carousel" data-slide-to="0"></li>
-                    <li data-target="#my-carousel" data-slide-to="1"></li>
-                    <li data-target="#my-carousel" data-slide-to="2"></li>
-                </ol>
-
-                <div class="carousel-inner">
-                    <div class="item active item-1">
-                        <a href="#"></a>
-                    </div>
-                    <div class="item item-2" >
-                        <a href="#"></a>
-                    </div>
-                    <div class="item item-3">
-                        <a href="#"></a>
-                    </div>
-                </div>
-                <a href="#my-carousel" class="carousel-control left" data-slide="prev"></a>
-                <a href="#my-carousel" class="carousel-control right" data-slide="next"></a>
+        //         <div class="carousel-inner">
+        //             <div class="item active item-1">
+        //                 <a href="#"></a>
+        //                 <div class="carousel-caption">
+        //                     <h3>Welcome</h3>
+        //                     <p>You are cordially invited to my 22nd birthday celebration weekend!</p>
+        //                 </div>
+        //             </div>
+        //             <div class="item item-2" >
+        //                 <a href="#"></a>
+        //             </div>
+        //             <div class="item item-3">
+        //                 <a href="#"></a>
+        //             </div>
+        //         </div>
+        //         <a href="#my-carousel" class="carousel-control left" data-slide="prev"></a>
+        //         <a href="#my-carousel" class="carousel-control right" data-slide="next"></a>
                     
-            </div>
+        //     </div>
 
-        </div>
+        // </div>
             // <div>
             //      <Carousel id="myCarousel">
             //         <Carousel.Item>
@@ -82,9 +69,3 @@ export class HomeContainer extends Component {
             //         </Carousel.Item>
             //     </Carousel>
             // </div>
-        )
-    }
-}
-
-export default HomeContainer
-
