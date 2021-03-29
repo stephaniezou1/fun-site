@@ -1,23 +1,53 @@
-import React from 'react';
-import {Navbar, Nav} from 'reactstrap'
+import React, {useState} from 'react';
+// import Navbar from 'react-bootstrap/Navbar'
+// import Nav from 'react-bootstrap/Nav'
+// import NavDropdown from 'react-bootstrap/NavDropdown'
+
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem,
+    NavbarText
+  } from 'reactstrap';
+  
 
 const NavBar = () => {
-    return (
-        <div>
-            <Navbar bg="light" expand="lg" fixed="top">
-            <Navbar.Brand href="#home">StoofChella</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/details">Details</Nav.Link>
-                <Nav.Link href="https://github.com/stephaniezou1/fun-site">GitHub</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-            </Navbar>
-        </div>
-    )
 
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => setIsOpen(!isOpen);
+
+  return (
+    <div>
+      <Navbar color="light" light expand="md">
+        <NavbarBrand href="/">StoofChella</NavbarBrand>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="mr-auto" navbar>
+            <NavItem>
+                <NavLink href="/">Home</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="/details">Details</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="https://github.com/stephaniezou1/fun-site">GitHub</NavLink>
+            </NavItem>
+          </Nav>
+          <NavbarText>April 30 - May 2, 2021</NavbarText>
+        </Collapse>
+      </Navbar>
+    </div>
+  );
 }
+
 
 export default NavBar

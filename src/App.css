@@ -24,5 +24,13 @@
 }
 
 .home-header{
-  padding-top:6em;
+  padding-top:2em;
+}
+
+.details-container{
+  padding:6em;
+}
+
+.container{
+  padding-bottom: 3em;
 }
