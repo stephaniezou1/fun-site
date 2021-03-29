@@ -38,11 +38,9 @@ const NavBar = () => {
             <NavItem>
                 <NavLink href="/details">Details</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/stephaniezou1/fun-site">GitHub</NavLink>
-            </NavItem>
           </Nav>
-          <NavbarText>April 30 - May 2, 2021</NavbarText>
+          <NavLink href="https://github.com/stephaniezou1/fun-site">Source</NavLink>
+          {/* <NavbarText>April 30 - May 2, 2021</NavbarText> */}
         </Collapse>
       </Navbar>
     </div>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 // import Carousel from 'react-bootstrap/Carousel'
-import { Jumbotron, Button } from 'reactstrap';
+import { Jumbotron} from 'reactstrap';
+import Button from 'react-bootstrap/Button';
 
 // import '../App.scss';
 
@@ -12,10 +13,11 @@ export class HomeContainer extends Component {
                     <Jumbotron>
                         <h1>Welcome</h1>
                         <p>
-                            You are cordially invited to my 22nd birthday celebration weekend! Please RSVP with me as soon as you can via text 😊
+                            You are cordially invited to my 22nd birthday celebration weekend (April 30 - May 2). Please RSVP with me as soon as you can via text! 😊
                         </p>
+                        <br/>
                         <p>
-                            <Button variant="primary" exact href="/details">Learn more</Button>
+                            <Button variant="secondary" href="/details">Learn more</Button>
                         </p>
                     </Jumbotron>
                 </div>
