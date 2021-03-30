@@ -21,7 +21,7 @@ export class DetailContainer extends Component {
                     What to Pack
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
-                    <Card.Body>Events include: wine tasting (*see closing thoughts), a nice sunset dinner, exploring the fields, swimming, ping pong, lounging, stargazing, and stack cup</Card.Body>
+                    <Card.Body>Events include: wine tasting (*see closing thoughts), a nice sunset dinner, exploring the fields, Sykes Ranch park loop (hike), swimming, ping pong, lounging, stargazing, and stack cup</Card.Body>
                     </Accordion.Collapse>
                 </Card>
                 <Card>
