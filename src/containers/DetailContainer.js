@@ -13,7 +13,7 @@ export class DetailContainer extends Component {
                     Location and Dates
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
-                    <Card.Body>Airbnb booked in Temecula, CA (text me for exact address!) from Thursday, April 30 to Monday, May 1</Card.Body>
+                    <Card.Body>Airbnb booked in Temecula, CA (text me for exact address!) from Thursday, April 29 to Monday, May 1</Card.Body>
                     </Accordion.Collapse>
                 </Card>
                 <Card>
@@ -45,7 +45,7 @@ export class DetailContainer extends Component {
                     Closing Thoughts
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="4">
-                    <Card.Body>Since we are in wine country, it's tempting to try to do a winetasting at a nearby winery, but given how nice the airbnb is, should we all just host our own wine-tasting at home?</Card.Body>
+                    <Card.Body>Since we are in wine country, it's tempting to try to do a winetasting at a nearby winery, but given how nice the airbnb is, should we all just host our own wine-tasting at home? My friend suggested ordering a case from a nearby winery and staying in!</Card.Body>
                     </Accordion.Collapse>
                 </Card>
                 </Accordion>
